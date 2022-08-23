@@ -18,3 +18,7 @@ nav {
   align-items: center;
   list-style: none;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

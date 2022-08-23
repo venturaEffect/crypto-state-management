@@ -6,7 +6,7 @@ export const CryptoList = () => {
 
         const [cryptos, setCryptos] = useContext(CryptoContext);
     return (
-        <div>
+        <div className="flex flex-wrap justify-center items-center mt-10">
             {cryptos.map((crypto, key) => (
                 <Crypto
                     name={crypto.name}
